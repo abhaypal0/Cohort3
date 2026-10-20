@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 97%;
+    margin: 10px;
+    padding: 0.1px;
+    border-radius: 10px;
+   
+    
+}
+
+.header {
+    margin: 4px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 9px;
+}
+
+.header img {
+    height: 10vh;
+    width: 35vw;
+}
+
+#filter-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-btn {
+    
+    border-radius: 15px;
+    height: 4vh;
+    width: 20vw;
+    border: none;
+}
+
+#filter {
+   
+    border-radius: 20px;
+    border: none;
+    width: 8vw;
+}
+#sort{
+    border-radius: 20px;
+    height: 3.5vh;
+    width: 2vw;
+}
+#card-div{
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.cards{
+    
+    height: 40vh;
+    width: 15vw;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    border-bottom:  5px greenyellow solid;
+    background-color: #f9f5f5;    
+}
+.card1{
+    text-align: center;
+}
+.card2{
+    text-align: center;
+}
+.card3{
+    text-align: center;
+}
+.card4{
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+   
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer-btn{
+    margin: 5px;
+    background-color: #fbf9f9;
+    padding: 10px;
+}
